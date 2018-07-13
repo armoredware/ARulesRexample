@@ -1,0 +1,5 @@
+library(arules)
+setwd("/root/Desktop/mercy520/arules")
+SocMed <- read.transactions(file="2016_Racial_Profiling_Dataset_Arrests.csv", sep=",")
+#list.files()
+dim(SocMed)
